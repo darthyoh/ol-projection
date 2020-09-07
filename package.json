@@ -1,0 +1,33 @@
+{
+  "name": "ol-projection",
+  "version": "0.1.0",
+  "description": "A simple module to get projection from EPSG or defs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darthyoh/ol-projection.git"
+  },
+  "keywords": [
+    "openlayers",
+    "projection"
+  ],
+  "author": "darthyoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darthyoh/ol-projection/issues"
+  },
+  "homepage": "https://github.com/darthyoh/ol-projection#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "openlayers": "^4.6.5",
+    "proj4": "^2.6.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
